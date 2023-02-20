@@ -107,7 +107,7 @@ class GUI:
 
         try:
          self.t.config(text=(weather[2],"\u00B0"))
-         self.c.config(text=(weather[0],"|","FEELS","LIKE",weather[0],"\u00B0"))
+         self.c.config(text=(weather[0],"|","FEELS","LIKE",weather[2],"\u00B0"))
 
          self.w.config(text=weather[5])
          self.h.config(text=weather[4])
